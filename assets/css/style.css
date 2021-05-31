@@ -1,0 +1,65 @@
+@font-face {
+    font-family: "Spotify";
+    src: url("./fonts/GothamBook.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Spotify";
+}
+
+header {
+    height: 60px;
+    background-color: #2e3a46;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+#logo {
+    height: 40px;
+}
+
+#root {
+    background-color: #1e2d3b;
+    height: calc(100vh - 60px);
+}
+
+.discList {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 80px 0px 0 0px;
+}
+
+.disc {
+    background-color: #2e3a46;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 180px;
+    height: 350px;
+    padding: 15px;
+    margin: 10px 20px;
+    text-align: center;
+}
+.disc h2 {
+    margin: 20px 0px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 1.3rem;
+}
+.disc h4 {
+    opacity: 0.5;
+    font-weight: 100;
+}
+
+.poster {
+    width: 150px;
+}
