@@ -11,6 +11,7 @@
 
 body {
     font-family: "Spotify";
+    background-color: #1e2d3b;
 }
 
 header {
@@ -26,7 +27,6 @@ header {
 }
 
 #root {
-    background-color: #1e2d3b;
     height: calc(100vh - 60px);
 }
 
